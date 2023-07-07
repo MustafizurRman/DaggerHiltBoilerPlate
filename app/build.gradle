@@ -98,8 +98,13 @@ dependencies {
     implementation "com.github.skydoves:landscapist-placeholder:2.1.4"
     implementation "com.github.skydoves:landscapist-animation:2.1.4"
     implementation "com.github.skydoves:landscapist-transformation:2.1.4"
+
     implementation 'com.google.code.gson:gson:2.10'
 
     // splash screen
     implementation "androidx.core:core-splashscreen:1.0.1"
+
+    // Location Services
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+
 }

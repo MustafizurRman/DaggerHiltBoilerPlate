@@ -1,4 +1,4 @@
-package com.example.daggerhiltsample.ui.theme
+package com.example.daggerhiltsample.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -64,6 +64,7 @@ fun DaggerHiltSampleTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
+        shapes= Shapes,
         typography = Typography,
         content = content
     )
